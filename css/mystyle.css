@@ -1,0 +1,342 @@
+@media only screen and (max-width: 480px) {
+  .final {
+    width: 30%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .td-img {
+    width: 60%;
+    height: auto;
+  }
+
+  .td-img-por {
+    width: 5%;
+    height: auto;
+  }
+}
+
+body {  
+     background-color:#cbcbe7;
+     font-family: Quicksand; Helvetica; Arial;
+}
+
+main { 
+     padding: 20px;
+}
+
+.bkgd1 { 
+       background-color:rgba(72, 72, 157,.75);
+       padding: 10px;
+       font-family: Quicksand; Helvetica; Arial;
+       font-weight: bold;
+       font-size: 14px;
+       color: white;
+       text-align: center;
+       
+}
+.foot-font { 
+           font-family: Quicksand; Helvetica; Arial;
+           color: #dcdcef;
+           text-decoration:underline;
+           font-size:13px;
+           font-weight:normal;
+           text-align:center;
+}
+
+.goodreads {
+           border-style:none; 
+
+}
+
+/* unvisited link*/ 
+.foot-font a:link {
+  color: #dcdcef;
+}
+
+/* visited link*/ 
+.foot-font a:visited {
+  color: white;
+}
+
+/* mouse over link*/ 
+.foot-font a:hover {
+  color: #8aadd0;
+}
+
+/* selected link*/ 
+.foot-font a:active {
+  color: blue;
+}
+
+.bkgd2 { 
+       background-color:rgba(220, 220, 239, .50); 
+       padding: 10px;    
+}
+
+.resume-main { 
+             background-color: #fafafa;
+             padding: 70px;
+}
+
+/*Lists*/
+.toc ul {
+  list-style: none; 
+  font-size: 14px;
+}
+
+.toc ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5275e0; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.toc li a {
+  /*display:block;*/
+  color: black;
+  text-decoration: underline;
+  
+}
+
+.toc a:hover {
+  color: #9595d0;
+}
+
+.resume ul {
+  list-style: none; 
+}
+
+.resume ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5275e0; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/*Tables*/
+td { 
+   vertical-align:top;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-top: 20px;
+}
+
+.resume-td { 
+           padding-bottom: 2px;
+           padding-right: 10px;
+           padding-top: 2px;
+           width: 50%;
+
+}
+
+.intro { 
+       text-align:center;
+       font-weight: bold
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #0080ff;
+}
+
+/*Navigation*/
+.mynav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7171c1;
+}
+
+.mynav li {
+  float: left;
+  font-family: Quicksand; Helvetica; Arial;
+}
+
+.mynav li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.mynav li a:hover:not(.active) {
+  background-color: #9595d0;
+}
+
+.active {
+  background-color: #4e4eb1;
+}
+
+.nav {
+     font-family: Quicksand; Helvetica; Arial;
+}
+
+/*Text*/
+h1 { 
+   font-family: "Open Sans"; Verdana;
+   color:  #303069;
+   font-weight: bold;
+}
+
+h2 { 
+   font-family: "Open Sans"; Verdana;
+   color: #5050af;
+   font-weight: bold;
+}
+
+h3 { 
+   font-family: "Open Sans"; Verdana;
+   color: #5050af;
+   font-weight: bold;
+}
+
+h4 { 
+   font-family:"Open Sans"; Verdana; 
+   font-style: italic;
+   font-weight:normal;
+   line-height:.5;
+   font-size: 14px;
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+    font-family: Quicksand; Helvetica; Arial;
+}
+
+.small-caps { 
+            font-variant:small-caps;
+            text-align:center;
+            font-family: Helvetica; Verdana;
+            font-size: 12px;
+}
+
+.header-logo { 
+             font-family: "Open Sans"; Verdana;
+             color:#303069;
+             font-weight:bold;
+             font-size: 40px;
+             text-align:right;
+}
+
+.contact { 
+         text-indent: 3em;
+}
+
+/* unvisited link*/ 
+.contact a:link {
+  color: #3366cc;
+}
+
+/* visited link*/ 
+.contact a:visited {
+  color: #24478f;
+}
+
+/* mouse over link*/ 
+.contact a:hover {
+  color: #eaeffa;
+}
+
+/* selected link*/ 
+.contact a:active {
+  color: blue;
+}
+
+.resume-head { 
+             font-size: 30px;
+             color:#0066cc;
+             text-align:right;
+}
+
+.resume-con { 
+            text-align:right;
+}
+
+.resume-h1 { 
+           font-family: "Open Sans"; Verdana; 
+           font-size: 18px;
+           color:#0066cc;
+}
+
+.resume-h2 { 
+             font-weight:bold;
+             font-family: "Open Sans"; Verdana;
+             font-size: 16px;
+             color: #6999c9;            
+}
+
+/*Links*/
+/* unvisited link*/ 
+.mod-link a:link {
+  color: #3366cc;
+}
+
+/* visited link*/ 
+.mod-link a:visited {
+  color: #24478f;
+}
+
+/* mouse over link*/ 
+.mod-link a:hover {
+  color: #9595d0;
+}
+
+/* selected link*/ 
+.mod-link a:active {
+  color: blue;
+}
+
+
+/*images*/
+
+.img-just {
+     float: left; 
+     margin-right: 20px;
+     margin-bottom: 10px;
+     border-style:solid;
+    border-width:2px;
+    border-color: #5050af;
+}
+ 
+.td-img { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-style:solid;
+    border-width:2px;
+    border-color: #5050af;
+} 
+
+.td-img-por { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:solid;
+border-width:2px;
+border-color: #5050af;
+  width: 131px;
+  height: 172.5px;
+} 
+
+.final { 
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       border-style:solid;
+    border-width:2px;
+    border-color: #5050af       
